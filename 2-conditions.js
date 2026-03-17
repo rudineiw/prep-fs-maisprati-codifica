@@ -47,6 +47,13 @@ let resultadoTernario = (18 >= idade && idade <= 32) ?
 // Exercício 1: Verifica se um número é par ou ímpar.
 let numeroParImpar = 17;
 
+if(numeroParImpar % 2 === 0){ // Se o número for divisível por 2 e o resto da divisão for 0
+    console.log('PAR!'); // Imprime PAR se a condição for verdadeira
+} else {
+    console.log('ÍMPAR!'); // Caso contrário, é ímpar
+}
+
+// Forma ternária para verificar se o número é par ou ímpar
 numeroParImpar % 2 === 0 ? console.log('PAR!') : console.log('ÍMPAR!'); // Verifica se o resto da divisão por 2 é 0
 
 // Exercício 2: Encontra o maior de três números.

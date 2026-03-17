@@ -1,0 +1,30 @@
+# Dependências
+node_modules/
+
+# Arquivos de lock (opcional - remova se quiser versionar)
+package-lock.json
+
+# Arquivos temporários
+tempCodeRunnerFile.js
+*.swp
+*.swo
+*~
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# Outros editores
+.idea/
+.DS_Store
+.env
+.env.local
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Sistema operacional
+Thumbs.db
