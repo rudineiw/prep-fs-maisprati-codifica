@@ -147,13 +147,13 @@ const prompt = require('prompt-sync')();
 let somar = 0;
 let contador = 0;
 // Entrada do primeiro número
-let numeroDigitado = Number(prompt("Digite um número decimal (0 para cancelar): "));
+let numeroDigitado = parseFloat(prompt("Digite um número decimal (0 para cancelar): "));
 // Ler números até que o usuário digite 0
 while (numeroDigitado !== 0) {
     somar += numeroDigitado;
     contador++;
     // Entrada do próximo número
-    numeroDigitado = Number(prompt("Digite outro número ou 0 para encerrar): "));
+    numeroDigitado = parseFloat(prompt("Digite outro número ou 0 para encerrar): "));
 }
 // Cálculo da média
 if (contador > 0) {
